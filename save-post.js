@@ -36,8 +36,8 @@ export default async function handler(req, res) {
 
     // STEP 5: Connect to Airtable
     // IMPORTANT: You'll replace these with your actual values
-    const base = new Airtable({
-      apiKey: process.env.AIRTABLE_API_KEY  // Your Airtable API key (kept secret)
+    socialmediaapp base = tblbCqSTAJXAolnjZ{
+      patoxArjRAlpnVVci.f82b4cc95d7a482cd482311b426f57fbcbd712eb8d5d3f1a9f6d61e1c532029b: process.env.AIRTABLE_API_KEY  // Your Airtable API key (kept secret)
     }).base(process.env.AIRTABLE_BASE_ID);  // Your base ID (starts with 'app')
 
     // STEP 6: Save to Airtable
